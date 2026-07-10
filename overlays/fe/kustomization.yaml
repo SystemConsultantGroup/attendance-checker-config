@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: attendance-checker-fe
+resources:
+- namespace.yaml
+- ../../base/fe
+
+
+patches:
+- path: domain.yaml
+  target:
+    kind: Ingress
+    name: attendance-checker-fe-ingress
+images:
+- name: scgskku/attendance-checker-fe-dev
+  newTag: #추후 자동 추가
