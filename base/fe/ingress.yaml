@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - attendance.scg.skku.ac.kr
+        - dev.attendance.scg.skku.ac.kr
       secretName: gitops-tls
   rules:
-    - host: attendance.scg.skku.ac.kr
+    - host: dev.attendance.scg.skku.ac.kr
       http:
         paths:
           - backend:
