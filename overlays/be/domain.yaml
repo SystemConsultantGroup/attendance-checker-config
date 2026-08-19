@@ -14,7 +14,7 @@ spec:
     - host: api.attendance.scg.skku.ac.kr
       http:
         paths:
-          - path: /v1/(.*)
+          - path: /api/
             pathType: ImplementationSpecific
             backend:
               service:
