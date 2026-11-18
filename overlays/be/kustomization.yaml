@@ -14,4 +14,4 @@ patches:
     name: attendance-checker-be-ingress
 images:
 - name: scgskku/attendance-checker-be-dev
-  newTag: 4a6f3e3069274506b29069e95db9ddd05995c142-44033004513-1
+  newTag: cd88bbdaa8b54fff48ac77de52536888f1f5f657-44233512278-1
